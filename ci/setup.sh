@@ -42,5 +42,5 @@ reactWasFound=1
 ls node_modules | grep react >/dev/null 2>&1 || { reactWasFound=0; }
 
 if [[ $reactWasFound == 0 ]] ; then
-  npm install --save react react-dom babelify babel-preset-react babel-preset-es2015
+  npm install
 fi

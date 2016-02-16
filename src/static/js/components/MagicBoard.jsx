@@ -1,7 +1,6 @@
-var React = require('react')
-var ReactDOM = require('react-dom')
+const React = require('react')
 
-MagicBoard = React.createClass({
+const MagicBoard = React.createClass({
   render: function() {
     return (
       <div className="magic-board">
@@ -14,3 +13,5 @@ MagicBoard = React.createClass({
     );
   }
 });
+
+module.exports = MagicBoard
