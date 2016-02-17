@@ -11,21 +11,36 @@
 .container .camera {
   width: 100%;
   height: 100%;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  top: 0;
-  position: absolute;
-  background-color: red;
+  background-image: url("http://www.funmayo.com/wp-content/uploads/2015/09/nature-scene-wallpapers.jpg")
 }
 
 .container .magic-board {
+  top: 0;
   width: 100%;
   height: 100%;
+  position: absolute;
+  background: rgba(255, 255, 255, 0.1);
+}
+
+.container .magic-board canvas {
+  width: inherit;
+}
+
+.palette-container {
   bottom: 0;
   left: 0;
   right: 0;
-  top: 0;
+  margin: 10px;
+  height: 55px;
+  display: inline-flex;
   position: absolute;
-  background: rgba(0, 0, 255, 0.3);
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+.palette-container .middle {
+  width: 100%;
+  padding: 5px;
+  text-align: center;
+  display: table-cell;
+  vertical-align: middle;
 }

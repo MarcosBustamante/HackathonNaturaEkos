@@ -3,11 +3,10 @@
 const React = require('react');
 
 const Camera = React.createClass({
-  render : function() {
+  render: function() {
     return (
       <div className="camera">
         Camera
-         <input type="file" accept="video/*;capture=camcorder" />
       </div>
     );
   },

@@ -1,0 +1,19 @@
+.round-button {
+  width: 3%;
+  display: inline-block;
+}
+
+.round-button-circle {
+	height:0;
+	width: 100%;
+  overflow:hidden;
+  border-radius: 50%;
+	padding-bottom: 100%;
+	border:3px solid #cfdcec;
+  background-color: #FF0000;
+  box-shadow: 0 0 3px gray;
+}
+
+.round-button-circle:hover {
+	background: #A20202;
+}
