@@ -1,0 +1,68 @@
+{
+	"musicas": [
+		{
+			"url": "/sons/alpha_wave.mp3",
+			"start": 0,
+			"duration": -1,
+			"loop": true,
+			"feading": false,
+			"words": [],
+			"volume": 0.2
+		},
+		{
+			"url": "/sons/floresta_vento.mp3",
+			"start": 20000,
+			"duration": 300000,
+			"loop": true,
+			"feading": false,
+			"words": [
+				"floresta", "florestas",
+				"vento", "ventos",
+				"mata", "matas",
+				"folha", "folhas",
+				"arvore", "arvores",
+				"ar"],
+			"volume": 0.8
+		},
+		{
+			"url": "/sons/passaros_dia.mp3",
+			"start": 45000,
+			"duration": 300000,
+			"loop": true,
+			"feading": false,
+			"words": [
+				"pássaro","pássaros", "passaro","passaros",
+				"animai", "animais",
+				"bicho", "bichos",
+				"ave", "aves"
+			],
+			"volume": 0.7
+		},
+		{
+			"url": "/sons/rio_2.mp3",
+			"start": 60000,
+			"duration": 300000,
+			"loop": true,
+			"feading": false,
+			"words": [
+				"rio", "rios",
+				"agua", "aguas", "água", "águas",
+				"correnteza", "correntezas"
+			],
+			"volume": 0.7
+		},
+		{
+			"url": "/sons/insetos_dia.mp3",
+			"start": 108000,
+			"duration": 300000,
+			"loop": true,
+			"feading": false,
+			"words": [
+				"inseto", "insetos",
+				"grilo", "grilos",
+				"cigarra", "cigarras"
+			],
+			"volume": 0.9
+		}
+	]
+}

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Hackathon</title>
+
+    <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script src="/static/angular.min.js"></script>
+    <script src="/static/MusicCtrl.js"></script>
+
+  </head>
+  <body ng-app="myApp">
+    <div ng-controller="MusicCtrl">
+      <button ng-click="startMusic()">
+        Começa
+      </button>
+
+      <button ng-click="smell()">
+        Vai
+      </button>
+
+      <li ng-repeat="m in messages track by m.url">
+        {[{m}]}
+      </li>
+    </div>
+  </body>
+</html>

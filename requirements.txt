@@ -1,0 +1,2 @@
+bottle==0.12.9
+pyserial==3.0.1
