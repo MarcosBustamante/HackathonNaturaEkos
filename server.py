@@ -6,6 +6,7 @@ import serial
 from bottle import route, run, template, static_file
 from threading import Timer
 
+bottle.debug(True)
 # ser = serial.Serial('/dev/cu.usbmodem1411',9600)
 
 @route('/')
@@ -38,4 +39,4 @@ def stopSmell():
 
 
 
-run(host='localhost', port=8000)
+bottle.run(host='0.0.0.0', port=argv[1])
